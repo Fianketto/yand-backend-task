@@ -1,0 +1,84 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-23 13:12:07.067636 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:12:07.103307 	 0:00:00.035671 	 201 	 {'import_id': 1}
+2019-08-23 13:12:12.732847 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:12:12.776207 	 0:00:00.043360 	 201 	 {'import_id': 2}
+2019-08-23 13:12:17.465704 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:12:17.533728 	 0:00:00.068024 	 201 	 {'import_id': 3}
+2019-08-23 13:12:21.457257 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:12:21.593162 	 0:00:00.135905 	 201 	 {'import_id': 4}
+2019-08-23 13:12:25.560879 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:12:26.321475 	 0:00:00.760596 	 201 	 {'import_id': 5}
+2019-08-23 13:12:32.006398 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:12:35.317915 	 0:00:03.311517 	 201 	 {'import_id': 6}
+2019-08-23 13:13:19.149577 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:19.150601 	 0:00:00.001024 	 400 	 Import data is not in JSON format
+2019-08-23 13:13:20.663180 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:20.663974 	 0:00:00.000794 	 400 	 Import data is not in JSON format
+2019-08-23 13:13:22.178472 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:22.179469 	 0:00:00.000997 	 400 	 Import data is not in JSON format
+2019-08-23 13:13:23.694864 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:23.695878 	 0:00:00.001014 	 400 	 Import data has more than 1 key (should be only "citizens")
+2019-08-23 13:13:25.212806 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:25.213997 	 0:00:00.001191 	 400 	 Import data has no "citizens" key
+2019-08-23 13:13:26.726954 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:26.728106 	 0:00:00.001152 	 400 	 Import data has duplicate keys
+2019-08-23 13:13:28.240476 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:28.241377 	 0:00:00.000901 	 400 	 Import data has duplicate keys
+2019-08-23 13:13:29.755077 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:29.756189 	 0:00:00.001112 	 400 	 The "citizens" value must be a list
+2019-08-23 13:13:31.269023 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:31.270161 	 0:00:00.001138 	 400 	 No citizens in import data. Should be at least one
+2019-08-23 13:13:32.784219 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:32.785209 	 0:00:00.000990 	 400 	 One or more fields are missing in import data - key citizen_id (citizen 0)
+2019-08-23 13:13:34.299840 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:34.301048 	 0:00:00.001208 	 400 	 One or more fields are missing in import data - key birth_date (citizen 0)
+2019-08-23 13:13:35.813991 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:35.815207 	 0:00:00.001216 	 400 	 One or more fields are missing in import data - key town (citizen 0)
+2019-08-23 13:13:37.327371 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:37.328601 	 0:00:00.001230 	 400 	 One or more fields are missing in import data - key apartment (citizen 0)
+2019-08-23 13:13:38.843986 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:38.845048 	 0:00:00.001062 	 400 	 One or more fields are missing in import data - key gender (citizen 0)
+2019-08-23 13:13:40.358179 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:40.359207 	 0:00:00.001028 	 400 	 One or more fields are missing in import data - key name (citizen 0)
+2019-08-23 13:13:41.871592 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:41.872514 	 0:00:00.000922 	 400 	 One or more fields are missing in import data - key street (citizen 0)
+2019-08-23 13:13:43.387413 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:43.388579 	 0:00:00.001166 	 400 	 One or more fields are missing in import data - key name (citizen 0)
+2019-08-23 13:13:44.901567 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:44.902739 	 0:00:00.001172 	 400 	 One or more fields are missing in import data - key citizen_id (citizen 0)
+2019-08-23 13:13:46.417380 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:46.418574 	 0:00:00.001194 	 400 	 One or more fields are missing in import data - key citizen_id (citizen 0)
+2019-08-23 13:13:47.933326 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:47.934302 	 0:00:00.000976 	 400 	 One or more fields are missing in import data - key town (citizen 0)
+2019-08-23 13:13:49.447800 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:49.448990 	 0:00:00.001190 	 400 	 One or more fields are missing in import data - key town (citizen 0)
+2019-08-23 13:13:50.966831 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:50.968064 	 0:00:00.001233 	 400 	 One or more fields are missing in import data - key name (citizen 0)
+2019-08-23 13:13:52.482112 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:52.483090 	 0:00:00.000978 	 400 	 One or more fields are missing in import data - key gender (citizen 0)
+2019-08-23 13:13:53.995583 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:53.996950 	 0:00:00.001367 	 400 	 One or more extra fields in import data - key child (citizen 0)
+2019-08-23 13:13:55.509885 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:55.510898 	 0:00:00.001013 	 400 	 One or more extra fields in import data - key child (citizen 0)
+2019-08-23 13:13:57.023078 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:57.024069 	 0:00:00.000991 	 400 	 One or more extra fields in import data - key child (citizen 0)
+2019-08-23 13:13:58.539350 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:13:58.540677 	 0:00:00.001327 	 400 	 One or more extra fields in import data - key child (citizen 0)
+2019-08-23 13:14:00.055876 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:00.057255 	 0:00:00.001379 	 400 	 One or more values in import data are invalid - key citizen_id (citizen 0)
+2019-08-23 13:14:01.582852 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:01.584438 	 0:00:00.001586 	 400 	 One or more values in import data are invalid - key apartment (citizen 0)
+2019-08-23 13:14:03.099716 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:03.100758 	 0:00:00.001042 	 400 	 Import data is not in JSON format
+2019-08-23 13:14:04.616091 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:04.617906 	 0:00:00.001815 	 400 	 One or more values in import data are invalid - key town (citizen 1)
+2019-08-23 13:14:06.158018 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:06.159378 	 0:00:00.001360 	 400 	 One or more values in import data are invalid - key building (citizen 0)
+2019-08-23 13:14:07.677435 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:07.678440 	 0:00:00.001005 	 400 	 Import data is not in JSON format
+2019-08-23 13:14:09.197655 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:09.199083 	 0:00:00.001428 	 400 	 One or more values in import data are invalid - key birth_date (citizen 9)
+2019-08-23 13:14:10.714430 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:10.715871 	 0:00:00.001441 	 400 	 One or more values in import data are invalid - key name (citizen 0)
+2019-08-23 13:14:12.232069 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:12.233518 	 0:00:00.001449 	 400 	 One or more values in import data are invalid - key apartment (citizen 0)
+2019-08-23 13:14:13.749177 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:13.750593 	 0:00:00.001416 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 0)
+2019-08-23 13:14:15.266377 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:15.267824 	 0:00:00.001447 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 1)
+2019-08-23 13:14:16.789080 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:16.791643 	 0:00:00.002563 	 400 	 Newborn citizens and time travelers are not supported. Check birth_date (citizen 1)
+2019-08-23 13:14:18.306566 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:18.308451 	 0:00:00.001885 	 400 	 Invalid gender (citizen 0)
+2019-08-23 13:14:19.821500 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:19.822955 	 0:00:00.001455 	 400 	 Invalid gender (citizen 1)
+2019-08-23 13:14:21.336484 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:21.337871 	 0:00:00.001387 	 400 	 Invalid gender (citizen 2)
+2019-08-23 13:14:22.857503 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:22.859122 	 0:00:00.001619 	 400 	 Duplicate citizen_id in import data
+2019-08-23 13:14:24.382731 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:24.384537 	 0:00:00.001806 	 400 	 Duplicate citizen_id in relatives list (citizen 2)
+2019-08-23 13:14:25.901170 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:25.902897 	 0:00:00.001727 	 400 	 Nonexistent citizen_id 777 in the list of relatives (citizen 1)
+2019-08-23 13:14:27.421676 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:27.423450 	 0:00:00.001774 	 400 	 Relatives inconsistency: citizen_id=1 is not in the list of citizen_id=3
+2019-08-23 13:14:28.939675 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:28.941604 	 0:00:00.001929 	 400 	 Relatives inconsistency: citizen_id=1 is not in the list of citizen_id=3
+2019-08-23 13:14:30.456819 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:30.458328 	 0:00:00.001509 	 400 	 Relatives inconsistency: citizen_id=7 is not in the list of citizen_id=5
+2019-08-23 13:14:31.972278 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:31.973417 	 0:00:00.001139 	 400 	 One or more fields in import data have incorrect type - key citizen_id (citizen 1)
+2019-08-23 13:14:33.486249 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:33.487245 	 0:00:00.000996 	 400 	 One or more fields in import data have incorrect type - key relatives (citizen 1)
+2019-08-23 13:14:35.000367 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:35.001645 	 0:00:00.001278 	 400 	 One or more fields in import data have incorrect type - key relatives (citizen 2)
+2019-08-23 13:14:36.516668 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:36.517875 	 0:00:00.001207 	 400 	 One or more fields in import data have incorrect type - key building (citizen 9)
+2019-08-23 13:14:38.030615 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:38.031739 	 0:00:00.001124 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 0)
+2019-08-23 13:14:39.548469 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:39.556310 	 0:00:00.007841 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 7)
+2019-08-23 13:14:41.073700 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:41.078747 	 0:00:00.005047 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 1)
+2019-08-23 13:14:42.594301 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:42.595898 	 0:00:00.001597 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 2)
+2019-08-23 13:14:44.109540 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-23 13:14:44.110773 	 0:00:00.001233 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy (citizen 4)
+2019-08-23 13:14:45.630711 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:45.649065 	 0:00:00.018354 	 200 	 {'citizen_id': 1, 'town': 'Мытищи', 'street': 'Макеевская улица', 'building': '70п69', 'apartment': 22, 'name': 'Измененное имя', 'birth_date': '16.11.1986', 'gender': 'male', 'relatives': [9, 2]}
+2019-08-23 13:14:47.162499 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:47.245018 	 0:00:00.082519 	 200 	 {'citizen_id': 1, 'town': 'Мытищи', 'street': 'Макеевская улица', 'building': '70п69', 'apartment': 22, 'name': 'Измененное имя', 'birth_date': '16.11.1986', 'gender': 'male', 'relatives': [6, 7]}
+2019-08-23 13:14:48.760399 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:48.791675 	 0:00:00.031276 	 200 	 {'citizen_id': 1, 'town': 'Измененный город', 'street': 'Макеевская улица', 'building': '70п69', 'apartment': 22, 'name': 'Измененное имя', 'birth_date': '16.11.1986', 'gender': 'male', 'relatives': []}
+2019-08-23 13:14:50.305359 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:50.306264 	 0:00:00.000905 	 400 	 Import data is not in JSON format
+2019-08-23 13:14:51.822256 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:51.823127 	 0:00:00.000871 	 400 	 Import data is not in JSON format
+2019-08-23 13:14:53.338116 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:53.339140 	 0:00:00.001024 	 400 	 Import data is not in JSON format
+2019-08-23 13:14:54.852139 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:54.853111 	 0:00:00.000972 	 400 	 Import data has duplicate keys
+2019-08-23 13:14:56.369390 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:56.370379 	 0:00:00.000989 	 400 	 No valid key in import data
+2019-08-23 13:14:57.898260 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:57.899262 	 0:00:00.001002 	 400 	 One or more extra fields in import data - key child
+2019-08-23 13:14:59.413001 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:14:59.414088 	 0:00:00.001087 	 400 	 One or more extra fields in import data - key citizen_id
+2019-08-23 13:15:00.929989 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:00.931089 	 0:00:00.001100 	 400 	 One or more extra fields in import data - key citizen_id
+2019-08-23 13:15:02.447154 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:02.447974 	 0:00:00.000820 	 400 	 One or more extra fields in import data - key child
+2019-08-23 13:15:03.963690 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:03.964711 	 0:00:00.001021 	 400 	 One or more values in import data are invalid - key apartment
+2019-08-23 13:15:05.479633 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:05.480369 	 0:00:00.000736 	 400 	 One or more values in import data are invalid - key street
+2019-08-23 13:15:06.996506 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:06.997693 	 0:00:00.001187 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy
+2019-08-23 13:15:08.513681 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:08.515037 	 0:00:00.001356 	 400 	 Invalid gender
+2019-08-23 13:15:10.029718 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:10.030782 	 0:00:00.001064 	 400 	 Duplicate citizen_id in relatives list
+2019-08-23 13:15:11.547294 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:11.548407 	 0:00:00.001113 	 400 	 Nonexistent citizen_id 100 in the list of relatives
+2019-08-23 13:15:13.063418 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:13.064343 	 0:00:00.000925 	 400 	 One or more fields in import data have incorrect type - key building
+2019-08-23 13:15:14.577357 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/1' [PATCH]>	2019-08-23 13:15:14.578335 	 0:00:00.000978 	 400 	 birth_date is invaild or has incorrect format, must be dd.mm.yyyy

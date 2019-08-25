@@ -1,0 +1,39 @@
+1. sudo gedit /etc/rc.local 
+
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+echo "started!" >> /home/ftt/Downloads/st.txt
+/usr/bin/python3 /home/ftt/Dropbox/Python_serv/MAIN.py &
+
+exit 0
+
+2. sudo nano /etc/systemd/system/rc-local.service
+[Unit]
+ Description=/etc/rc.local Compatibility
+ ConditionPathExists=/etc/rc.local
+
+[Service]
+ Type=forking
+ ExecStart=/etc/rc.local start
+ TimeoutSec=0
+ StandardOutput=tty
+ RemainAfterExit=yes
+ SysVStartPriority=99
+
+[Install]
+ WantedBy=multi-user.target
+
+3. sudo chmod +x /etc/rc.local
+4. sudo systemctl enable rc-local
+5. sudo systemctl start rc-local.service

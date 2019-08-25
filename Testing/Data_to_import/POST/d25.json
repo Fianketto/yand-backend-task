@@ -1,0 +1,23 @@
+{"citizens": [
+
+{"apartment": 88, "gender": "female", "town": "Комсомольск-на-Амуре", "relatives": [], "street": "Капотня 1-й, квартал", "name": "Яндукина Марфа Тихоновна", "building": "27с59"},
+
+{"apartment": 22, "gender": "male", "citizen_id": 1, "town": "Мытищи", "relatives": [9, 2], "street": "Макеевская улица", "name": "Амбражевич Герман Кондратович", "building": "70п69"},
+
+{"apartment": 25, "gender": "male", "citizen_id": 2, "name": "Статник Семён Назарович", "building": "27г48"},
+
+{"apartment": 48, "gender": "female", "citizen_id": 3, "birth_date": "26.11.1946", "town": "Ангарск", "relatives": [8, 4, 5], "street": "Кабельный 1-й, проезд", "name": "Кичеева Инна Леонидовна", "building": "79л76"},
+
+{"apartment": 74,  "relatives": [8, 9, 3, 4, 6], "street": "Малыгина, улица", "name": "Набоков Фома Кириллович", "building": "36ж5"},
+
+{ "birth_date": "05.11.1997", "town": "Старый Оскол", "relatives": [3], "street": "Маршала Полубоярова, улица", "name": "Ерофеева Каролина Романовна", "building": "59к23"},
+
+{"apartment": 21, "gender": "female", "citizen_id": 6, "birth_date": "18.11.2001", "town": "Энгельс", "relatives": [4], "street": "Маршала Жукова, проспект", "name": "Бельтюкова Альбина Захаровна", "building": "3г15"},
+
+{"apartment": 6, "gender": "female", "town": "Пермь", "relatives": [], "street": "Малая Андроньевская улица", "name": "Яблонцева Евгения Ираклиевна", "building": "54а64"},
+
+{"apartment": 16, "gender": "male", "citizen_id": 8,  "relatives": [3, 4], "street": "Каланчёвская улица", "name": "Маланов Лука Левович", "building": "45е79"},
+
+{ "name": "Рашета Эвелина Ивановна", "building": "52а72"}
+
+]}

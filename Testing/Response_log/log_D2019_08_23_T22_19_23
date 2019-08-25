@@ -1,0 +1,7 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-23 22:19:23.670808 	 <Request 'http://0.0.0.0:8080/imports/1/citizens' [GET]>	2019-08-23 22:19:23.674241 	 0:00:00.003433 	 200 	 [{'citizen_id': 0, 'town': 'Псков', 'street': 'Карпатская 2-я, улица', 'building': '70г36', 'apartment': 81, 'name': 'Ишеева Ариадна Олеговна', 'birth_date': '28.12.1981', 'gender': 'female', 'relatives': []}]
+2019-08-23 22:19:30.917302 	 <Request 'http://0.0.0.0:8080/imports/2/citizens' [GET]>	2019-08-23 22:19:30.921322 	 0:00:00.004020 	 200 	 longer than 300 symbols
+2019-08-23 22:19:41.291682 	 <Request 'http://0.0.0.0:8080/imports/3/citizens' [GET]>	2019-08-23 22:19:41.310062 	 0:00:00.018380 	 200 	 longer than 300 symbols
+2019-08-23 22:22:59.777388 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/birthdays' [GET]>	2019-08-23 22:23:00.218749 	 0:00:00.441361 	 200 	 longer than 300 symbols
+2019-08-23 22:23:19.842916 	 <Request 'http://0.0.0.0:8080/imports/2/citizens/birthdays' [GET]>	2019-08-23 22:23:20.299046 	 0:00:00.456130 	 200 	 longer than 300 symbols
+2019-08-23 22:23:31.670014 	 <Request 'http://0.0.0.0:8080/imports/2/towns/stat/percentile/age' [GET]>	2019-08-23 22:23:31.755717 	 0:00:00.085703 	 200 	 longer than 300 symbols

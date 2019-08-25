@@ -1,0 +1,7 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-23 13:22:00.289589 	 <Request 'http://0.0.0.0:8080/imports/3/citizens' [GET]>	2019-08-23 13:22:00.292126 	 0:00:00.002537 	 200 	 longer than 300 symbols
+2019-08-23 13:22:07.098847 	 <Request 'http://0.0.0.0:8080/imports/50/citizens' [GET]>	2019-08-23 13:22:07.099664 	 0:00:00.000817 	 400 	 Invalid import_id
+2019-08-23 13:22:15.420018 	 <Request 'http://0.0.0.0:8080/imports/3/citizens/birthdays' [GET]>	2019-08-23 13:22:15.514196 	 0:00:00.094178 	 200 	 longer than 300 symbols
+2019-08-23 13:22:24.871645 	 <Request 'http://0.0.0.0:8080/imports/16/citizens/birthdays' [GET]>	2019-08-23 13:22:24.872389 	 0:00:00.000744 	 400 	 Invalid import_id
+2019-08-23 13:22:46.137637 	 <Request 'http://0.0.0.0:8080/imports/3/towns/stat/percentile/age' [GET]>	2019-08-23 13:22:46.157682 	 0:00:00.020045 	 200 	 longer than 300 symbols
+2019-08-23 13:22:57.625312 	 <Request 'http://0.0.0.0:8080/imports/-5/towns/stat/percentile/age' [GET]>	2019-08-23 13:22:57.626135 	 0:00:00.000823 	 400 	 Invalid import_id

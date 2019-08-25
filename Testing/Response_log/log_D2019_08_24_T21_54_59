@@ -1,0 +1,2 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-24 21:54:59.305444 	 <Request 'http://0.0.0.0:8080/imports/15/citizens' [GET]>	2019-08-24 21:55:00.398773 	 0:00:01.093329 	 200 	 longer than 300 symbols

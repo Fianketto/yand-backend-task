@@ -1,0 +1,12 @@
+{"citizens":[
+
+{"citizen_id":1,"town":"Москва","street":"Льва Толстого","building":"16с5к1","apartment":7,"name":"Иванов Иван Иванович","birth_date":"26.12.1986","gender":"male","relatives":[2,3]},
+{"citizen_id":2,"town":"Москва","street":"Som_street","building":"15_в_6","apartment":72,"name":"Иванова Мария Геннадьевна","birth_date":"12.01.1991","gender":"female","relatives":[1]},
+{"citizen_id":3,"town":"Питер","street":"существует","building":"65","apartment":1,"name":"Генрих","birth_date":"13.05.1978","gender":"male","relatives":[1]},
+{"citizen_id":4,"town":"Сызрань-на-Дону","street":"Сызрань??","building":"на Дону????","apartment":999,"name":"Житель","birth_date":"01.01.2001","gender":"male","relatives":[]},
+{"citizen_id":50,"town":"Москва","street":"Льва Толстого","building":"16с5к1","apartment":7,"name":"Иванов Иван Иванович","birth_date":"27.11.1978","gender":"male","relatives":[60,61]},
+{"citizen_id":60,"town":"Москва","street":"Льва Толстого","building":"16с5к1","apartment":7,"name":"Иванов Иван Иванович","birth_date":"21.08.2018","gender":"male","relatives":[50]},
+{"citizen_id":61,"town":"Москва","street":"Льва Толстого","building":"16с5к1","apartment":7,"name":"Иванов Иван Иванович","birth_date":"21.08.2017","gender":"male","relatives":[50,62]},
+{"citizen_id":62,"town":"Москва","street":"Льва Толстого","building":"16с5к1","apartment":7,"name":"Иванов Иван Иванович","birth_date":"22.08.2018","gender":"male","relatives":[61]}
+
+]}

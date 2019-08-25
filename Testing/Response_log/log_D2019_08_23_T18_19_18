@@ -1,0 +1,2 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-23 18:19:18.309787 	 <Request 'http://0.0.0.0:8080/imports/50/citizens' [GET]>	2019-08-23 18:19:18.312416 	 0:00:00.002629 	 400 	 Invalid import_id

@@ -1,0 +1,12 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-25 14:38:32.192026 	 <Request 'http://0.0.0.0:8080/imports/4/citizens' [GET]>	2019-08-25 14:38:32.194888 	 0:00:00.002862 	 400 	 Invalid import_id
+2019-08-25 14:38:36.963375 	 <Request 'http://0.0.0.0:8080/imports/6/citizens' [GET]>	2019-08-25 14:38:36.978222 	 0:00:00.014847 	 200 	 longer than 300 symbols
+2019-08-25 14:38:40.937518 	 <Request 'http://0.0.0.0:8080/imports/1/citizens' [GET]>	2019-08-25 14:38:40.940530 	 0:00:00.003012 	 200 	 [{'citizen_id': 0, 'town': 'Псков', 'street': 'Карпатская 2-я, улица', 'building': '70г36', 'apartment': 81, 'name': 'Ишеева Ариадна Олеговна', 'birth_date': '28.12.1981', 'gender': 'female', 'relatives': []}]
+2019-08-25 14:38:44.423324 	 <Request 'http://0.0.0.0:8080/imports/0/citizens' [GET]>	2019-08-25 14:38:44.425772 	 0:00:00.002448 	 400 	 Invalid import_id
+2019-08-25 14:38:51.190169 	 <Request 'http://0.0.0.0:8080/imports/-1/citizens' [GET]>	2019-08-25 14:38:51.192656 	 0:00:00.002487 	 400 	 Invalid import_id
+2019-08-25 14:38:57.204607 	 <Request 'http://0.0.0.0:8080/imports/8/citizens' [GET]>	2019-08-25 14:38:57.207474 	 0:00:00.002867 	 400 	 Invalid import_id
+2019-08-25 14:39:04.781022 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-25 14:39:05.536029 	 0:00:00.755007 	 201 	 {'import_id': 7}
+2019-08-25 14:39:07.216654 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-25 14:39:07.887803 	 0:00:00.671149 	 201 	 {'import_id': 8}
+2019-08-25 14:39:15.115350 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-25 14:39:15.200686 	 0:00:00.085336 	 400 	 Import data is not in JSON format
+2019-08-25 14:39:17.848592 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-25 14:39:18.361327 	 0:00:00.512735 	 201 	 {'import_id': 10}
+2019-08-25 14:39:37.489073 	 <Request 'http://0.0.0.0:8080/imports/9/citizens' [GET]>	2019-08-25 14:39:37.492029 	 0:00:00.002956 	 400 	 Invalid import_id

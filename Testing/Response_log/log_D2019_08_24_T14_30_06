@@ -1,0 +1,23 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-24 14:30:06.646944 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-24 14:30:10.221485 	 0:00:03.574541 	 201 	 {'import_id': 13}
+2019-08-24 14:30:10.297633 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-24 14:30:13.674531 	 0:00:03.376898 	 201 	 {'import_id': 14}
+2019-08-24 14:30:28.755002 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-24 14:30:32.245219 	 0:00:03.490217 	 201 	 {'import_id': 15}
+2019-08-24 14:30:32.324751 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-24 14:30:35.731646 	 0:00:03.406895 	 201 	 {'import_id': 16}
+2019-08-24 14:35:39.284946 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-24 14:35:42.658653 	 0:00:03.373707 	 201 	 {'import_id': 17}
+2019-08-24 14:37:02.315100 	 <Request 'http://0.0.0.0:8080/imports/14/citizens' [GET]>	2019-08-24 14:37:03.233528 	 0:00:00.918428 	 200 	 longer than 300 symbols
+2019-08-24 14:37:19.160861 	 <Request 'http://0.0.0.0:8080/imports/14/citizens' [GET]>	2019-08-24 14:37:20.076242 	 0:00:00.915381 	 200 	 longer than 300 symbols
+2019-08-24 14:37:30.453142 	 <Request 'http://0.0.0.0:8080/imports/15/citizens' [GET]>	2019-08-24 14:37:31.419891 	 0:00:00.966749 	 200 	 longer than 300 symbols
+2019-08-24 14:37:38.258311 	 <Request 'http://0.0.0.0:8080/imports/13/citizens' [GET]>	2019-08-24 14:37:39.184818 	 0:00:00.926507 	 200 	 longer than 300 symbols
+2019-08-24 14:37:45.679801 	 <Request 'http://0.0.0.0:8080/imports/12/citizens' [GET]>	2019-08-24 14:37:46.599844 	 0:00:00.920043 	 200 	 longer than 300 symbols
+2019-08-24 14:37:51.577277 	 <Request 'http://0.0.0.0:8080/imports/11/citizens' [GET]>	2019-08-24 14:37:52.532274 	 0:00:00.954997 	 200 	 longer than 300 symbols
+2019-08-24 14:37:59.339020 	 <Request 'http://0.0.0.0:8080/imports/10/citizens' [GET]>	2019-08-24 14:38:00.265759 	 0:00:00.926739 	 200 	 longer than 300 symbols
+2019-08-24 14:38:22.898250 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-24 14:38:37.913647 	 0:00:15.015397 	 201 	 {'import_id': 18}
+2019-08-24 14:39:29.893409 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:39:34.700998 	 0:00:04.807589 	 200 	 longer than 300 symbols
+2019-08-24 14:39:59.444474 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:40:04.184876 	 0:00:04.740402 	 200 	 longer than 300 symbols
+2019-08-24 14:40:07.520243 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:40:12.329264 	 0:00:04.809021 	 200 	 longer than 300 symbols
+2019-08-24 14:40:30.158850 	 <Request 'http://0.0.0.0:8080/imports/15/citizens' [GET]>	2019-08-24 14:40:31.112440 	 0:00:00.953590 	 200 	 longer than 300 symbols
+2019-08-24 14:40:31.358471 	 <Request 'http://0.0.0.0:8080/imports/15/citizens' [GET]>	2019-08-24 14:40:32.897071 	 0:00:01.538600 	 200 	 longer than 300 symbols
+2019-08-24 14:40:55.147213 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:40:59.921319 	 0:00:04.774106 	 200 	 longer than 300 symbols
+2019-08-24 14:41:03.033087 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:41:07.997733 	 0:00:04.964646 	 200 	 longer than 300 symbols
+2019-08-24 14:42:06.050506 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:42:10.858159 	 0:00:04.807653 	 200 	 longer than 300 symbols
+2019-08-24 14:42:14.260218 	 <Request 'http://0.0.0.0:8080/imports/18/citizens' [GET]>	2019-08-24 14:42:19.039288 	 0:00:04.779070 	 200 	 longer than 300 symbols

@@ -1,0 +1,2 @@
+starting_time	request	ending_time	duration	response_status	response_text
+2019-08-25 17:32:56.543287 	 <Request 'http://0.0.0.0:8080/imports' [POST]>	2019-08-25 17:32:56.599197 	 0:00:00.055910 	 201 	 {'import_id': 1}

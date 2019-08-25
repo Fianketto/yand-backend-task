@@ -1,0 +1,23 @@
+{"citizens": [
+
+{"apartment": 88, "gender": "female", "citizen_id": 0,  "town": "Комсомольск-на-Амуре", "relatives": [], "street": "Капотня 1-й, квартал", "building": "27с59"},
+
+{"apartment": 22, "gender": "male", "citizen_id": 1,  "town": "Мытищи", "relatives": [9, 2], "street": "Макеевская улица",  "building": "70п69"},
+
+{"apartment": 25, "gender": "male", "citizen_id": 2,  "town": "Казань", "relatives": [1], "street": "Комсомольский проспект", "building": "27г48"},
+
+{"apartment": 48, "gender": "female", "citizen_id": 3, "town": "Ангарск", "relatives": [8, 4, 5], "street": "Кабельный 1-й, проезд",  "building": "79л76"},
+
+{"apartment": 74, "gender": "male", "citizen_id": 4,  "town": "Чита", "relatives": [8, 9, 3, 4, 6], "street": "Малыгина, улица", "building": "36ж5"},
+
+{"apartment": 74, "gender": "female", "citizen_id": 5,  "town": "Старый Оскол", "relatives": [3], "street": "Маршала Полубоярова, улица","building": "59к23"},
+
+{"apartment": 21, "gender": "female", "citizen_id": 6, "town": "Энгельс", "relatives": [4], "street": "Маршала Жукова, проспект", "building": "3г15"},
+
+{"apartment": 6, "gender": "female", "citizen_id": 7, "town": "Пермь", "relatives": [], "street": "Малая Андроньевская улица", "building": "54а64"},
+
+{"apartment": 16, "gender": "male", "citizen_id": 8,"town": "Подольск", "relatives": [3, 4], "street": "Каланчёвская улица","building": "45е79"},
+
+{"apartment": 51, "gender": "female", "citizen_id": 9, "town": "Симферополь", "relatives": [1, 4], "street": "Марьиной Рощи 2-й, проезд","building": "52а72"}
+
+]}
